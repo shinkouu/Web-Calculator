@@ -1,2 +1,2 @@
 # Web-Calculator
- Easy web calculator for basic calculations
+Easy web calculator for basic calculations

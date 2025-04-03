@@ -1,3 +1,7 @@
+//
+// Created by Kevin Pham on 03.04.2025.
+//
+
 {
     "compilerOptions": {
         "outDir": "./htdocs/js",
