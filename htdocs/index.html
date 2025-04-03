@@ -1,17 +1,26 @@
 <!-- Created by Kevin Pham on 03.04.2025. -->
 
 <!DOCTYPE html>
-<html>
-    <title> Web Calculator</title>
-    <body>
-        <h1> Basic Web Calculator</h1>
-        <p> Enter the 1st Number<input type="number" id="num1" placeholder="Number 1"></p>
-        <p> Enter the 2nd Number<input type="number" id="num2" placeholder="Number 2"></p>
-        <button id="Add"> Add</button>
-        <button id="Sub"> Subtract</button>
-        <button id="Mult"> Multiply</button>
-        <button id="Divide"> Divide</button>
-        
-        <h3> The answer is: <output id="result"></output></h3>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src='js/App.js' type="module"></script>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Basic Web Calculator</h2>
+        <input type="number" id="num1" placeholder="Please enter your first number.">
+        <input type="number" id="num2" placeholder="Please enter your second number.">
+        <div class="buttons">
+            <button id="Add">+</button>
+            <button id="Sub">-</button>
+            <button id="Mult">x</button>
+            <button id="Divide">÷</button>
+        </div>
+        <div class="result">The answer is: <output id="result"></output></div>
+    </div>
+</body>
 </html>
